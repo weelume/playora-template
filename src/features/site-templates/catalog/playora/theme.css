@@ -13,3 +13,6 @@
 @media(prefers-reduced-motion:reduce){.po *, .po *:before,.po *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.po-paper{position:relative;top:auto}.po-story{height:auto}.po-story-sticky{position:relative}.po-button:hover,.po-review:hover,.po-blog-card:hover{transform:none}}
 .po-step:hover{scale:1.01}@media(prefers-reduced-motion:reduce){.po-step:hover{scale:1}}
 .po-story-copy{opacity:var(--story-opacity,1)}.po-story-cover{opacity:var(--story-cover,1)}
+
+/* 根滚动容器只在本模板挂载时建立定位上下文，供滚动窗口准确测量偏移。 */
+html:has(.po){position:relative}
