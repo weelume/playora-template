@@ -1,0 +1,229 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "playora",
+  "version": "1.0.0",
+  "name": "Playora 趣味学习",
+  "gitUrl": "https://github.com/weelume/playora-template",
+  "sceneId": "landing-page",
+  "listed": false,
+  "tags": [
+    "儿童教育",
+    "双语",
+    "视频",
+    "动效"
+  ],
+  "summary": "包含故事窗口、学习卡片、亲子博客的趣味学习展示模板",
+  "accentColor": "#fcc222",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Playora desktop home",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-features.webp",
+      "alt": "Playora desktop features",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "Playora desktop blog",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Playora desktop contact",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Playora tablet home",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-features.webp",
+      "alt": "Playora tablet features",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/tablet-blog.webp",
+      "alt": "Playora tablet blog",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Playora tablet contact",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Playora mobile home",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-features.webp",
+      "alt": "Playora mobile features",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "Playora mobile blog",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Playora mobile contact",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "features",
+          "title": "趣味学习",
+          "localizedTitles": {
+            "en": "Learning"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于我们",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "blog",
+          "title": "成长博客",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系我们",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "服务条款",
+          "localizedTitles": {
+            "en": "Terms"
+          }
+        },
+        {
+          "slug": "cookies",
+          "title": "Cookie 说明",
+          "localizedTitles": {
+            "en": "Cookies"
+          }
+        },
+        {
+          "slug": "blog/learning-through-play",
+          "title": "在玩耍中学习",
+          "localizedTitles": {
+            "en": "Learning through play"
+          }
+        },
+        {
+          "slug": "blog/reading-together",
+          "title": "亲子共读",
+          "localizedTitles": {
+            "en": "Reading together"
+          }
+        },
+        {
+          "slug": "blog/puzzle-time",
+          "title": "拼图时光",
+          "localizedTitles": {
+            "en": "Puzzle time"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "实现源码与参考素材分开管理；参考素材商业及再分发权利尚未确认。",
+    "redistributionAllowed": false
+  },
+  "localizedNames": {
+    "en": "Playora · Playful Learning"
+  }
+}

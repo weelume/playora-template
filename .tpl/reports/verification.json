@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-26T01:31:46.323Z",
+  "sourceCommit": null,
+  "sourceDigest": "e9d2de7102da697a7f91816aaa39532cdbaab00da3de4737cd4bd249d5482de2",
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:29:18.362Z",
+      "finishedAt": "2026-10-26T01:29:20.996Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:29:20.997Z",
+      "finishedAt": "2026-10-26T01:29:24.286Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:29:24.287Z",
+      "finishedAt": "2026-10-26T01:29:25.120Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:29:25.120Z",
+      "finishedAt": "2026-10-26T01:29:41.609Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-26T01:29:42.339Z"
+    }
+  ],
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm 9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "limitations": [
+    "PC/iPad/H5 的故事缩放、文案显示、翻卡、FAQ、视频暂停恢复已实际验证；原站精确时序、全部悬浮轨迹与系统减少动态偏好尚未完整对照，不能宣称完整动效复刻验收通过。",
+    "当前构建目录不是独立干净 Git 克隆。",
+    "截图实际解码尺寸为1425×990、819×1159和375×812，元数据按实际值登记。",
+    "参考设计、图片、视频及MiSans商业再分发权利未完整核实，保持listed=false及redistributionAllowed=false。",
+    "表单仅本地校验，不发送、不保存；没有真实儿童账户、游戏服务、订阅或进度追踪。"
+  ]
+}

@@ -1,0 +1,12 @@
+'use client'
+import {useState,type CSSProperties} from 'react'
+import {AnimatePresence,motion,useReducedMotion} from 'framer-motion'
+import type {TemplateLocale} from '../../../types'
+import {asset,text,bi,faq} from '../content'
+import {Reveal} from './Motion'
+import {usePlayoraHost} from '../host'
+export function Reviews({locale}:{locale:TemplateLocale}){return <section className="po-reviews" id="testimonials"><Reveal kind="title"><h2 className="po-section-title">{text.reviews[locale]}</h2></Reveal><div className="po-reviews-grid">{['#fe6263','#fafa0a','#9eb2f6','#5291fe','#f1aefa','#ea9c00'].map((color,index)=><Reveal key={color} delay={index%3*.12}><article className="po-review" style={{'--review':color} as CSSProperties}><img src={asset(`t${index+1}.png`)} alt={bi('亲子学习插画','Parent and child illustration')[locale]}/><p>{bi('“学习像玩耍一样快乐。每天的新发现，都让孩子迫不及待想和我分享！”','“Learning feels like playtime. My daughter is excited to share her new discoveries every day!”')[locale]}</p><small>{bi('示例家长评价','Illustrative parent testimonial')[locale]}</small></article></Reveal>)}</div></section>}
+export function Faq({locale}:{locale:TemplateLocale}){
+ const [open,setOpen]=useState<number|null>(0),reduced=useReducedMotion(),host=usePlayoraHost()
+ return <section className="po-faq" id="faq"><Reveal kind="title"><h2 className="po-section-title">{text.questions[locale]}</h2></Reveal><div className="po-faq-list">{faq.map(([question,answer],index)=><Reveal key={index} delay={index*.07}><div className={'po-faq-item '+(open===index?'is-open':'')} style={{'--faq-color':['#8c97fe','#ff9500','#fafa0a','#f3aeff','#7fe092','#72d8ff'][index]} as CSSProperties}><span className="po-faq-tab" aria-hidden><i/></span><div><h3><button id={'po-q-'+index} aria-expanded={open===index} aria-controls={'po-a-'+index} onClick={()=>{setOpen(open===index?null:index);console.debug('[playora:faq]',{index,expanded:open!==index})}}>{question[locale].replace('Playora',host.brandName[locale])}<span aria-hidden>{open===index?'−':'+'}</span></button></h3><AnimatePresence initial={false}>{open===index&&<motion.div id={'po-a-'+index} role="region" aria-labelledby={'po-q-'+index} initial={{height:0,opacity:0}} animate={{height:'auto',opacity:1}} exit={{height:0,opacity:0}} transition={{duration:reduced?0:.35}} className="po-answer"><p>{answer[locale].replaceAll('Playora',host.brandName[locale])}</p></motion.div>}</AnimatePresence></div></div></Reveal>)}</div></section>
+}

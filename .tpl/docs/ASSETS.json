@@ -1,0 +1,132 @@
+{
+  "reference": "https://jiro.build/templates/education-careers/kids-learning-academy-landing-page-playora",
+  "assets": [
+    {
+      "path": "public/templates/playora/videos/kids-learning-through-playing-games-header-video.mp4",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Videos/Kids%20Learning%20through%20Playing%20Games%20Header%20Video.mp4",
+      "bytes": 6851173,
+      "sha256": "e1295d326d07d420b3a96b05eac2a9ed59334cc7d2d702c70b3e27d374b6f04b",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/logo.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/Logo.png",
+      "bytes": 5406,
+      "sha256": "790353138117f75d7af80cf9e6bf00a8f43125aaccab693461708543a7f0ce83",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/play-icon.svg",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/Play%20Icon.svg",
+      "bytes": 4420,
+      "sha256": "dd23d42d4a6d13a9563f0b57560378c8cbdf1f8b2d3b5ffdfd19eca57b927b0e",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/videos/story-bg-video.mp4",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Videos/Story%20Bg%20Video.mp4",
+      "bytes": 2741348,
+      "sha256": "0a49bb7336f2cb600c553195e3171aa1e68d952ff5e39f4b70baeb5b89cd5d58",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-276.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20276.png",
+      "bytes": 579289,
+      "sha256": "311f60bafc1d79e32f340d547132b0c8bb0a4e7b66e581001fe9818e562c8d56",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-277.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20277.png",
+      "bytes": 658094,
+      "sha256": "5ba6e78eed3d408ec84f61ae25de68df68497490dcb43fdbd6e70ca2aa7e9a78",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-278.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20278.png",
+      "bytes": 631607,
+      "sha256": "ae32832e6bfd3f1c5b5ab61fd01b95293421f1d1e8a65e41b8d216fc408fc6e4",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-281.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20281.png",
+      "bytes": 9669192,
+      "sha256": "29b3ba272e46a44f84f93d769e445529e7b52ac127dd1ddd840498e92fb15ceb",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-283.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20283.png",
+      "bytes": 171677,
+      "sha256": "616f1936eba3964d02bddf514f309b52ffbade687c873a9c699ac6e75af854fe",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-334.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20334.png",
+      "bytes": 339559,
+      "sha256": "71867e416bb71a6f6bb8512de730bdc2842942473d07503f577796f21073ba7c",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/image-335.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/image%20335.png",
+      "bytes": 155810,
+      "sha256": "c3ee62a2fc5bad141c1ce309c3e3827cc3675564dba5b8a75c8c0cb35ac7f97b",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/traine.svg",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/traine.svg",
+      "bytes": 107147,
+      "sha256": "6896e9c5f54eca4d61a993cb30d998230ede8d22eb2559c7b00044ef6405d686",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/t1.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/t1.png",
+      "bytes": 189889,
+      "sha256": "c33618c72bfbf475ff386d5a3f11285ec805a450a7e99a7f3078df7ba83163ba",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/t2.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/t2.png",
+      "bytes": 234801,
+      "sha256": "7dc7f91c41bbd4cc987c93c7d2c9af30698d3daa742ec2982d2ab25360353de0",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/t3.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/t3.png",
+      "bytes": 154234,
+      "sha256": "ce980c7f2b6ca121cb058fb271e0c7f901ec6a9c85ece0f0538aa06b89557c11",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/t4.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/t4.png",
+      "bytes": 193753,
+      "sha256": "94c6a5cc999f0957a5bae184261b968e67cd0dcc6cdbc313d35304bf5cb9a1f0",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/t5.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/t5.png",
+      "bytes": 208213,
+      "sha256": "a34cfd036deb14510b4bee34aa93ef40c4e84884018822dc7f8b91955289559a",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    },
+    {
+      "path": "public/templates/playora/images/t6.png",
+      "source": "https://cdn.jiro.build/Kids%20Learning%20-%20Playora/Images/t6.png",
+      "bytes": 204606,
+      "sha256": "b08382748ead030d9a6752632cae75663a273274dff1f5462598b4bd87458d17",
+      "license": "原站公开引用；素材再分发及商业许可尚未确认"
+    }
+  ],
+  "fontNote": "MiSans 与 Poppins 复用现有本地字体，随包保留字体许可文件。"
+}

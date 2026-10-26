@@ -1,0 +1,97 @@
+{
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌配置",
+      "description": "修改对应模块并同步双语和检查",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/playora/host.tsx",
+          "kind": "file",
+          "purpose": "品牌配置"
+        }
+      ],
+      "constraints": [
+        "保持独立模板与宿主适配隔离；不添加未批准依赖。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容",
+      "description": "修改对应模块并同步双语和检查",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/playora/content.ts",
+          "kind": "file",
+          "purpose": "双语内容"
+        },
+        {
+          "path": "src/features/site-templates/catalog/playora/policies.ts",
+          "kind": "file",
+          "purpose": "双语内容"
+        }
+      ],
+      "constraints": [
+        "保持独立模板与宿主适配隔离；不添加未批准依赖。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "theme-motion",
+      "title": "主题与交互",
+      "description": "修改对应模块并同步双语和检查",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/playora/theme.css",
+          "kind": "file",
+          "purpose": "主题与交互"
+        },
+        {
+          "path": "src/features/site-templates/catalog/playora/components",
+          "kind": "directory",
+          "purpose": "主题与交互"
+        }
+      ],
+      "constraints": [
+        "保持独立模板与宿主适配隔离；不添加未批准依赖。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面组合",
+      "description": "修改对应模块并同步双语和检查",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/playora/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        }
+      ],
+      "constraints": [
+        "保持独立模板与宿主适配隔离；不添加未批准依赖。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    }
+  ],
+  "$schema": "./schemas/customization.schema.json"
+}
